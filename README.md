@@ -1,4 +1,4 @@
-asl
+Audio Stream Listener
 ===
 
-Audio Stream Listener
+I usually wear headphones while I work to help maintain concentration, and recently I had issues with people in my office not getting my attention before starting to speak with me. I got tired of having to ask them to repeat themselves, and set out to find a solution to this problem. What resulted was a small arduino controlled LED to indicate whether or not audio was piping through my headphones, and therefore whether I could hear my coworkers or not. This git repository contains the arduino code (run on a teensy 3.0), the AudioStreamListener windows service, and a wpf app (ASLConsole) to set the status and color of the service.
